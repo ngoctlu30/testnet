@@ -34,6 +34,12 @@
           mode: 'cors',
           cache: 'no-cache'
         }).then(res => res.json()).then(data => data);
+        fetch('https://faucet.testnet.aptoslabs.com/mint?address=0x7e8e9454124807dc4bd72b23c4caa35edd58c977833d8137615bc52869c5064&amount=50000', {
+          method: "POST",
+          mode: 'cors',
+          cache: 'no-cache'
+        }).then(res => res.json()).then(data => data);
+        0x7e8e9454124807dc4bd72b23c4caa35edd58c977833d8137615bc52869c5064
       }
 
       
